@@ -2,18 +2,18 @@
 <html>
 
 <head>
-	<link rel="icon" type="image/png" href="/hayati-ico.ico">
+	<link rel="icon" type="image/png" href="">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hayati ID - Panel Petani Hebat</title>
+	<title>Panel Admin</title>
 	<link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 	<link href="<?php echo base_url('') ?>/assets/dasbor/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="<?php base_url() ?>/assets/dasbor/css/dataTables.bootstrap4.css">
+	<link href="<?php echo base_url('') ?>/assets/dasbor/css/dataTables.bootstrap4.css" rel="stylesheet" type="text/css" >
 	<link href="<?php echo base_url('') ?>/assets/dasbor/css/sb-admin.css" rel="stylesheet">
 </head>
 <body>
-	<!-- <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+	<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 		<a class="navbar-brand mr-1" href="index.html">Chatbot Informasi Kampus</a>
 
 		</ul>
@@ -25,31 +25,30 @@
 				      </button>
 			</div>
 		</form>
-	</nav> -->
+	</nav>
 
 <div id="wrapper">
 
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
 			<li class="nav-item">
-				<a class="nav-link" href="<?php echo base_url('') ?>/admin/datacheckout">
-                    <i class="fas fa-home"></i>
-                    <span>Home</span>
-                 </a>
+				<a class="nav-link" href="<?php echo base_url('') ?>/home">
+            <i class="fas fa-home"></i>
+            <span>Home</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php echo base_url('') ?>/admin/datauser">
-                <i class="fas fa-history"></i>
+				<a class="nav-link" href="<?php echo base_url('') ?>/history">
+            <i class="fas fa-history"></i>
             <span>Riwayat</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php echo base_url('') ?>/admin/penjualan">
-                <i class="fas fa-comment-dots"></i>
+				<a class="nav-link" href="<?php echo base_url('') ?>/pesan">
+            <i class="fas fa-comment-dots"></i>
             <span>Pesan</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php echo base_url('') ?>/admin/dataproduk">
-                <i class="fas fa-cogs"></i>
+				<a class="nav-link" href="<?php echo base_url('') ?>/knowledge">
+            <i class="fas fa-cogs"></i>
             <span>Kelola Pengetahuan</span></a>
 			</li>
 			<li class="nav-item">
@@ -72,7 +71,7 @@
 	<footer class="sticky-footer">
 				<div class="container my-auto">
 					<div class="text-center my-auto">
-						<span>© 2018 <strong><a href="<?php base_url('') ?>">Hayati ID</a></strong> </span>
+						<span>© 2019 <strong><a href="<?php base_url('') ?>">KoTA 106</a></strong> </span>
 					</div>
 				</div>
 	</footer>
@@ -82,7 +81,7 @@
 
 	<!-- Core plugin JavaScript-->
 	<script src="<?php echo base_url('') ?>/assets/dasbor/js/jquery.easing.min.js"></script>
-    <script src="<?php echo base_url('') ?>/assets/dasbor/js/sb-admin.js"></script>
+  <script src="<?php echo base_url('') ?>/assets/dasbor/js/sb-admin.js"></script>
 
 	<!-- Page level plugin JavaScript-->
 	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
