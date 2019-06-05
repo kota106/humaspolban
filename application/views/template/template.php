@@ -20,7 +20,7 @@ POLBAN</a>
 		<button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
       </button>
-		</ul> 
+		</ul>
 	</nav>
 
 
@@ -29,28 +29,28 @@ POLBAN</a>
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
 			<li class="nav-item">
-				<a class="nav-link" href="<?php base_url('') ?>/admin/datacheckout">
+				<a class="nav-link" href="<?php echo base_url('') ?>/admin/datacheckout">
                     <i class="fas fa-home"></i>
                     <span>Home</span>
                  </a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php base_url('') ?>/admin/datauser">
-                <i class="fas fa-users"></i>
+				<a class="nav-link" href="<?php echo base_url('') ?>/admin/datauser">
+                <i class="fas fa-history"></i>
             <span>Riwayat</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php base_url('') ?>/admin/penjualan">
-                <i class="fas fa-store"></i>
+				<a class="nav-link" href="<?php echo base_url('') ?>/admin/penjualan">
+                <i class="fas fa-comment-dots"></i>
             <span>Pesan</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php base_url('') ?>/admin/dataproduk">
-                <i class="fas fa-hand-holding-usd"></i>
+				<a class="nav-link" href="<?php echo base_url('') ?>/admin/dataproduk">
+                <i class="fas fa-cogs"></i>
             <span>Kelola Pengetahuan</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="<?php base_url('') ?>/masuk/logout">
+				<a class="nav-link" href="<?php echo base_url('') ?>/masuk/logout">
             <i class="fas fa-sign-out-alt"></i>
             <span>Keluar</span></a>
 			</li>
@@ -70,16 +70,16 @@ POLBAN</a>
 				</div>
 	</footer>
 
-	<script src="<?php base_url('') ?>/assets/dasbor/js/jquery.min.js"></script>
-	<script src="<?php base_url('') ?>/assets/dasbor/js/bootstrap.bundle.min.js"></script>
+	<script src="<?php echo base_url('') ?>/assets/dasbor/js/jquery.min.js"></script>
+	<script src="<?php echo base_url('') ?>/assets/dasbor/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Core plugin JavaScript-->
-	<script src="<?php base_url('') ?>/assets/dasbor/js/jquery.easing.min.js"></script>
-    <script src="<?php base_url('') ?>/assets/dasbor/js/sb-admin.js"></script>
+	<script src="<?php echo base_url('') ?>/assets/dasbor/js/jquery.easing.min.js"></script>
+    <script src="<?php echo base_url('') ?>/assets/dasbor/js/sb-admin.js"></script>
 
 	<!-- Page level plugin JavaScript-->
 	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
-	<script type="text/javascript" src="<?php base_url() ?>/assets/dasbor/js/dataTables.bootstrap4.js"></script>
+	<script type="text/javascript" src="<?php echo base_url() ?>/assets/dasbor/js/dataTables.bootstrap4.js"></script>
 	<script>
 		$(document).ready(function() {
 			$('#dataTable').DataTable();
