@@ -13,18 +13,21 @@
 	<link href="<?php echo base_url('') ?>/assets/dasbor/css/sb-admin.css" rel="stylesheet">
 </head>
 <body>
-	<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
-		<a class="navbar-brand mr-1" href="index.html">Chatbot Informasi Kampus
-POLBAN</a>
+	<!-- <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
+		<a class="navbar-brand mr-1" href="index.html">Chatbot Informasi Kampus</a>
 
-		<button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
-        <i class="fas fa-bars"></i>
-      </button>
 		</ul>
-	</nav>
+		<form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+			<div class="input-group">
 
+						<button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
+				        <i class="fas fa-bars"></i>
+				      </button>
+			</div>
+		</form>
+	</nav> -->
 
-	<div id="wrapper">
+<div id="wrapper">
 
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
@@ -56,12 +59,16 @@ POLBAN</a>
 			</li>
 		</ul>
 
+
 		<div id="content-wrapper">
 			<div class="container-fluid">
 				<!-- <?php $this->load->view($content); ?> -->
 			</div>
 		</div>
-	</div>
+
+</div>
+
+
 	<footer class="sticky-footer">
 				<div class="container my-auto">
 					<div class="text-center my-auto">
