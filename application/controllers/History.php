@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class History extends CI_Controller {
   function __construct(){
 		parent::__construct();
 		$this->load->helper(array('form','url','security'));
@@ -10,7 +10,7 @@ class Home extends CI_Controller {
 
 	public function index()
 	{
-    $data['content'] = '/home/index.php';
+    $data['content'] = '/history/index.php';
     $this->load->view('/template/template',$data);
 	}
 

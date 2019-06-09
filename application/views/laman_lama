@@ -1,0 +1,191 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?><!DOCTYPE html>
+    <header>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="lheader">
+                <div class="carousel-item active">
+                    <div class="carousel-caption">
+                        <h3>Pangan Organik Segar dari Petani Lokal</h3><br>
+                        <h3 class="head-desc">Mudah. Berdampak. Jangka Panjang.</h3>
+                        <a class="about" href="<?php base_url('') ?>/about"><button class="subm" data-dismiss="modal" type="button">PELAJARI SELENGKAPNYA</button></a>
+                    </div>
+                    <img class="d-block w-100" src="<?php base_url('') ?>/assets/img/header-hand.jpg" alt="First slide">
+                </div>
+                <!-- <div class="carousel-item">
+                    <a href="https://instagram.com/hayati.organik" target="_blank"><img class="d-block w-100" src="<?php base_url('') ?>/assets/img/bantu-palu.jpg" alt="Second slide"></a>
+                </div> !-->
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+                </div>
+                <div class="smheader">
+                <div class="carousel-item active">
+                    <div class="carousel-caption">
+                        <h3>Platform Investasi Pertanian Berkelanjutan</h3><br>
+                        <h3 class="head-desc">Mudah. Berdampak. Jangka Panjang.</h3>
+                        <a class="about" href="<?php base_url('') ?>/about"><button class="subm" data-dismiss="modal" type="button">
+            PELAJARI SELENGKAPNYA</button></a>
+                    </div>
+                    <img class="d-block w-100" src="<?php base_url('') ?>/assets/img/header-hand-sm-min.jpg" alt="Hayati ID">
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="description">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h4 class="section-heading text-uppercase">Jadi <strong>#PetaniModern</strong> di Hayati</h4>
+                    <div class="subheading-divider"></div>
+                    <img class="logo-desc" src="<?php base_url('') ?>/assets/img/lg-hayati.png" alt="">
+                </div>
+                <div class="col-md-12 align-self-center">
+                    <div class="short-desc">
+                        <p>Hayati adalah platform digital yang menghubungkan petani dan kamu yang peduli dengan pertanian di Indonesia. Di Hayati pula, kamu dapat temukan beragam pangan segar organik yang berasal dari tangan-tangan petani Indonesia secara langsung!</p>
+                        <div class="subheading-divider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-5 col-md-6">
+                    <div class="hayati-goals">
+                        <h4><strong> Petani Lokal yang Sejahtera</strong></h4><br>
+                        <img src="<?php base_url('') ?>/assets/img/icon/hayati-wealth.png" alt="Hayati ID">
+                        <div class="ssubheading-divider"></div>
+                        <p>Hayati berusaha mewujudkan ketahanan pangan dalam negeri dan kesejahteraan petani melalui investasi berkelanjutan dan pasar petani lokal
+                        </p>
+                        <br>
+                        <h4><strong>Kelestarian Lingkungan Sesama</strong></h4><br>
+                        <img src="<?php base_url('') ?>/assets/img/icon/hayati-recycling.png" alt="Hayati ID">
+                        <div class="ssubheading-divider"></div>
+                        <p>Optimasi potensi pertanian di Indonesia dengan tidak melupakan kelestarian lingkungan sekitar
+                        </p>
+                    </div>    
+                </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                    <div class="hayati-goals">
+                        <h4><strong>Keuntungan Skema Bagi Hasil</strong></h4><br>
+                        <img src="<?php base_url('') ?>/assets/img/icon/hayati-share.png" alt="Hayati ID">
+                        <div class="ssubheading-divider"></div>
+                        <p>Melalui investasi berkelanjutan, dapatkan keuntungan maksimal dari skema bagi hasil baik investor maupun petani di Hayati
+                        </p>
+                        <br>
+                        <h4><strong>Memudahkan Petani Lokal</strong></h4><br>
+                        <img src="<?php base_url('') ?>/assets/img/icon/hayati-ease.png" alt="Hayati ID">
+                        <div class="ssubheading-divider"></div>
+                        <p>Petani memperoleh hasil terbaik karena pangan organik segar dari tangan petani langsung sampai ke kamu!
+                        </p>
+                    </div>    
+                </div>
+            </div>    
+        </div>
+    </section>
+    
+    <section id="stakeholder">
+        <div class="container">
+            <div class="col-md-12 text-center">
+                    <h4 class="section-heading text-uppercase"><strong>Pasar Hayati</strong></h4>
+                    <div class="subheading-divider"></div>
+                </div>
+            <div class="row text-center">
+                    <div class="col-md-4 col-sm-6">
+                    <div class="farmer">
+                        <p>Produk asli petani lokal dapat kamu temukan di Hayati
+                        </p>
+                    </div>
+                </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="investor">
+                        <p>Dengan harga terbaik, pangan segar dari mereka bisa kamu nikmati
+                        </p>
+                    </div>
+                </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="hayati">
+                        <p>Petani lebih sejahtera karena produk yang kamu konsumsi dibeli langsung tanpa rantai yang panjang!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-centered">
+            <div class="col-lg-12 text-center">
+                <button class="subm" data-dismiss="modal" type="button">
+                    Belanja - Segera Hadir!</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+     <section id="step">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h4 class="section-heading text-uppercase"><strong>Investasi di Hayati</strong></h4>
+                    <div class="subheading-divider"></div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3 col-sm-6 col-home-reg">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-3 img-farmer">
+                            <img class="img-howto" src="<?php base_url('') ?>/assets/img/step-regis.png" alt="">
+                        </div>
+                        <div class="col-md-12 col-xs-9">
+                            <p class="text-step"><strong>1. Daftar</strong></p>
+                            <p class="text-step">Daftar dengan mudah di Hayati dengan mengisi data-datamu yang diperlukan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-home-reg">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-3 img-farmer">
+                            <img class="img-howto" src="<?php base_url('') ?>/assets/img/step-choose.png" alt="">
+                        </div>
+                        <div class="col-md-12 col-xs-9">
+                            <p class="text-step"><strong>2. Pilih Proyek</strong></p>
+                            <p class="text-step">Pilih proyek manapun untuk didanai mulai dari Rp. 100.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-home-reg">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-3 img-farmer">
+                            <img class="img-howto" src="<?php base_url('') ?>/assets/img/step-review.png" alt="">
+                        </div>
+                        <div class="col-md-12 col-xs-9">
+                            <p class="text-step"><strong>3. Pantau</strong></p>
+                            <p class="text-step">Pantau aktivitas proyek berlangsung yang disediakan oleh tim Hayati</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-home-reg">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-3 img-farmer">
+                            <img class="img-howto" src="<?php base_url('') ?>/assets/img/step-profit.png" alt="">
+                        </div>
+                        <div class="col-md-12 col-xs-9">
+                            <p class="text-step"><strong>4. Profit</strong></p>
+                            <p class="text-step">Proyek berakhir, petani dan kamu dapat keuntungan</p><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-centered">
+            <div class="col-lg-12 text-center">
+                <button class="subm" data-dismiss="modal" type="button">
+                    Segera Hadir!</button>
+            </div>
+        </div>
+    </section> !-->
