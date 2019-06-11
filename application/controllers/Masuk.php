@@ -23,12 +23,12 @@ class Masuk extends CI_Controller {
  		parent::__construct();
  	    $this->load->helper(array('form','url','security','date'));
          $this->load->library(array('form_validation','session'));
- 		$this->load->model('M_sign','sign');
+ 		// $this->load->model('M_sign','sign');
  	}
 
 
 	public function index(){
-		$this->load->view('masuk');
+		$this->load->view('login/index');
 	}
 
   function login()
@@ -41,7 +41,7 @@ class Masuk extends CI_Controller {
     );
     $data = $this->sign->cek_login("pengguna",$where);
     foreach ($data as $row) {$status = $row['status'];}
-    
+
 		if($data != null){
 		    $this->session->set_userdata('email', $email);
 			$this->session->set_userdata('is_login', true);
@@ -72,7 +72,7 @@ class Masuk extends CI_Controller {
 		$this->session->sess_destroy();
 		redirect('masuk');
 	}
-	
+
     Public function sign_in()
     {
     $data = array(
